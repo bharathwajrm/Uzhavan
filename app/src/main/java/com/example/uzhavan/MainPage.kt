@@ -126,7 +126,7 @@ fun MainPage(parentNavController: NavController, viewModel: UserViewModel) {
             composable(BottomNavItem.Explore.route)  { ExploreScreen(viewModel) }
             composable(BottomNavItem.Help.route)     {
                 HelpScreen(
-                    onSoilPrediction = { navController.navigate("soil_predictio") },
+                    onSoilPrediction = { navController.navigate("soil_prediction") },
                     onWeather        = { navController.navigate("weather") },
                     onSchemeFinder   = { navController.navigate("scheme_finder") },
                     onShopLocator    = { navController.navigate("shop_locator") },
